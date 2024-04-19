@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="navbar">
+    <div class="container py-3">
+        <button class="navbar-brand botao-navbar">
+            <a id="home-menu">
+                <img src="{{ url_for('static', filename='img/logo-01.png') }}" alt="Bruno Oliveira">
+            </a>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+            aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+            <i style="font-size: 45px;" class="bi bi-list primary-color"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-items">
+            <ul class="navbar-nav me-auto mb-2 mb-1g-0">
+                <li class="nav-item ">
+                    <button class="botao-navbar">
+                        <a class="nav-link primary-color" id="sobre-menu">Sobre</a>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="botao-navbar">
+                        <a class="nav-link primary-color" id="metodologia-menu">Metodologia</a>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="botao-navbar">
+                        <a class="nav-link primary-color" id="beneficios-menu">Benefícios</a>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="botao-navbar">
+                        <a class="nav-link primary-color" id="produtos-menu">Produtos</a>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="botao-navbar">
+                        <a class="nav-link primary-color" id="parceiros-menu">Parceiros</a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

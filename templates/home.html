@@ -1,0 +1,224 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<section>
+    <div id="home-area"></div>
+    <div class="product-image" id="img-01"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div style="padding-bottom: 130px;" class="col-lg-8">
+                <h1 style="padding-bottom: 20px;" class="display-2 fw-bold primary-color">“O dinheiro é um mestre
+                    terrível, mas um excelente servo.” – P. T.</h1>
+                <div class="text-end">
+                    <a
+                        href="https://api.whatsapp.com/send?phone=5511984452261&text=Opa%20Bruno,%20tudo%20certo?%20Acabei%20de%20dar%20uma%20olhada%20no%20seu%20site%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es!">
+                        <button class="botao-padrao botao-padrao-1 mb-5">Fale conosco</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8" id="sobre-area">
+                <h2 class="primary-color fw-bold display-5">Sobre o Bruno</h2>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <br>
+                <p class="primary-color fs-5">Especialista e Consultor em Planejamento Financeiro há mais de 7 anos, com
+                    formação acadêmica sólida e experiência profissional voltada para Finanças.</p>
+                <p class="primary-color fs-5">Depois de 7 anos de experiência em assessoria de investimentos, decidi dar
+                    o passo mais difícil e montei uma pequena empresa de consultoria financeira, na época voltada para
+                    médicos que não sabiam como juntar dinheiro e se planejar. Essa corretora foi crescendo até atingir
+                    800 clientes médicos em SP.</p>
+                <p class="primary-color fs-5">Esse foi o ponto de partida para a expansão para os demais estados do
+                    Brasil, ampliando a nossa atuação para todas as capitais do Brasil.</p>
+                <p class="primary-color fs-5">Por conta desta experiência, dos prêmios recebidos, da utilização da
+                    metodologia dos 4 potes, sobretudo, por ter feito a diferença no planejamento financeiro da vida de
+                    diversas pessoas e famílias ao longo dessa última década, eu estou totalmente credenciado para
+                    orientar você e montar o seu plano.</p>
+                <p class="primary-color fs-5">Quero ajudar você a conquistar seus objetivos e a atingir a tão sonhada
+                    liberdade financeira!</p>
+                <br>
+                <div class="text-end">
+                    <a
+                        href="https://api.whatsapp.com/send?phone=5511984452261&text=Opa%20Bruno,%20tudo%20certo?%20Acabei%20de%20dar%20uma%20olhada%20no%20seu%20site%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es!">
+                        <button class="botao-padrao botao-padrao-1 mb-5">Fale conosco</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-secondary-color">
+    <div id="metodologia-area"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 my-4">
+                <h2 class="secondary-color fw-bold display-5">Metodologia dos 4 potes</h2>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="d-flex align-items-center">
+                    <img src="{{ url_for('static', filename='vid/moedaGif.gif') }}" alt="" id="myVideo">
+                    <div class="ms-4">
+                        <h3>Viver hoje</h3>
+                        <p class="fs-5">Habitação; Alimentação; Educação; Transporte; Lazer; Vestuário; Outros...</p>
+
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <img src="{{ url_for('static', filename='vid/moedaGif.gif') }}" alt="" id="myVideo">
+                    <div class="ms-4">
+                        <h3>Proteção contra imprevistos</h3>
+                        <p class="fs-5">Plano de Saúde INSS, Reserva “Tática” Seguros: Vida; Invalidez; Renda
+                            Temporária;
+                            Responsabilidade Civil; Automóvel</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <img src="{{ url_for('static', filename='vid/moedaGif.gif') }}" alt="" id="myVideo">
+                    <div class="ms-4">
+                        <h3>Realizações de médio prazo</h3>
+                        <p style="margin-bottom: 0;" class="fs-5 fw-bold">Em até 5 anos</p>
+                        <p class="fs-5">Liquidez Baixa Volatilidade: Poupança; Tesouro Direto; Fundos de Renda Fixa;
+                            Diversificação Nacional</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <img src="{{ url_for('static', filename='vid/moedaGif.gif') }}" alt="" id="myVideo">
+                    <div class="ms-4">
+                        <h3>Realizações de longo prazo</h3>
+                        <p style="margin-bottom: 0;" class="fs-5 fw-bold">De 5 a 25 anos</p>
+                        <p class="fs-5">Juros compostos; Previdência Social (INSS); Previdência Complementar; Fundo de
+                            Ações; Diversificação
+                            Internacional</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</section>
+
+<section class="product-image2" id="img-02">
+    <div id="beneficios-area"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 my-4">
+                <h2 class="primary-color fw-bold display-5">Benefícios da Metodologia</h2>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 d-flex justify-content-center align-items-center mb-4">
+                <p style="margin-bottom: 0;" class="primary-color fs-5">Há 12 anos, o diferencial é a utilização da
+                    metodologia dos 4 potes
+                    (planejamento de vida financeira). Com esta metodologia patenteada, nosso cliente aprende através de
+                    sessões de coaching, como se utilizar de seus próprios recursos financeiros.</p>
+                <img class="img-icons-beneficios p-3" src="{{ url_for('static', filename='img/icon-2.png') }}"
+                    alt="caminho para o sucesso">
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 d-flex justify-content-center align-items-center mb-4">
+                <img class="img-icons-beneficios p-3" src="{{ url_for('static', filename='img/icon-3.png') }}"
+                    alt="caminho para o sucesso">
+                <p style="margin-bottom: 0;" class="primary-color fs-5">Ao utilizar-se desta metodologia, o cliente se
+                    prepara para os bons
+                    momentos da vda, e também para os mais adversos. Abordo e soluciono questões chave dentro de um
+                    planejamento. Saúde, Proteção, Sucessão, Sonhos, Educação e Aposentadoria.</p>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 d-flex justify-content-center align-items-center mb-4">
+                <p style="margin-bottom: 0;" class="primary-color fs-5">O objetivo é oferecer ao cliente educação
+                    financeira em conjunto ao plano
+                    de ação individualizado independente de qualquer condição. De forma simples mas com disciplina,
+                    conseguimos chegar mais longe e com maior segurança.</p>
+                <img class="img-icons-beneficios p-3" src="{{ url_for('static', filename='img/icon-4.png') }}"
+                    alt="caminho para o sucesso">
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2"></div>
+            <div class=" col-lg-8">
+                <a
+                    href="https://api.whatsapp.com/send?phone=5511984452261&text=Opa%20Bruno,%20tudo%20certo?%20Acabei%20de%20dar%20uma%20olhada%20no%20seu%20site%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es!">
+                    <button class="botao-padrao botao-padrao-1 mb-5">Fale conosco</button>
+                </a>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-primary-color">
+    <div id="produtos-area"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 mt-4">
+                <h2 class="primary-color fw-bold display-5 text-center">Nossos Produtos</h2>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 d-flex justify-content-center">
+                <img class="img-produtos" src="{{ url_for('static', filename='img/nossosProdutos.png') }}"
+                    alt="nossos produtos">
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 text-start">
+                <a
+                    href="https://api.whatsapp.com/send?phone=5511984452261&text=Opa%20Bruno,%20tudo%20certo?%20Acabei%20de%20dar%20uma%20olhada%20no%20seu%20site%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es!">
+                    <button class="botao-padrao botao-padrao-1 mb-5">Fale conosco</button>
+                </a>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</section>
+
+<section class="product-image3" id="img-03">
+    <div id="parceiros-area"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 mt-4">
+                <h2 class="primary-color fw-bold display-5 text-center">Nossos Parceiros</h2>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 d-flex justify-content-center">
+                <img class="img-produtos" src="{{ url_for('static', filename='img/nossosParceiros.png') }}"
+                    alt="nossos parceiros">
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
